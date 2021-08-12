@@ -29,12 +29,11 @@ class Environment:
 
     def update(self, act: Action) -> Observation:
         # todo
-
         return Observation([0.0])
         
 
     def draw(self) -> None:
-        drawing_size = 200
+        drawing_size = 400
         tile_size = drawing_size / self._board_size
 
         d = draw.Drawing(drawing_size, drawing_size)
