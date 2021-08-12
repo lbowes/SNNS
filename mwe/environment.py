@@ -4,21 +4,23 @@ import drawSvg as draw
 import random
 
 
-def rand_hex_col() -> str:
-    r = lambda: random.randint(0, 255)
-    return '#%02X%02X%02X%02X' % (r(), r(), r(), 255)
-
-
 class Environment:
     def __init__(self):
-        self._size = 5
+        self._board_size = 5
+        self._agent_pos = (0, 0)
+        self._colours = {
+            "agent": "#ff0000ff",
+            "wall": "#333333ff",
+            "air": "#ffffffff"
+        }
         self._board = [
             '#', '.', '#', '#', '#',
-            '#', '.', '#', '.', '#',
+            '.', '.', '#', '.', '#',
             '#', '.', '#', '.', '#',
             '#', '.', '.', '.', '.',
-            '#', '.', '#', '#', '#'
+            '.', '.', '#', '#', '#'
         ]
+
 
     def reset(self) -> Observation:
         # todo
@@ -27,21 +29,28 @@ class Environment:
 
     def update(self, act: Action) -> Observation:
         # todo
+
         return Observation([0.0])
         
 
     def draw(self) -> None:
         drawing_size = 200
-        tile_size = drawing_size / self._size
+        tile_size = drawing_size / self._board_size
 
         d = draw.Drawing(drawing_size, drawing_size)
 
-        for x in range(self._size):
-            for y in range(self._size):
-                idx = (self._size - y - 1) * self._size + x
+        for x in range(self._board_size):
+            for y in range(self._board_size):
+                idx = (self._board_size - y - 1) * self._board_size + x
                 tile = self._board[idx]
                 
-                col = rand_hex_col() if tile == '#' else "#00000000"
+                if (x, y) == self._agent_pos:
+                    col = self._colours["agent"]
+                elif tile == '#':
+                    col = self._colours["wall"]
+                else:
+                    col = self._colours["air"]
+                
                 r = draw.Rectangle(x * tile_size, y * tile_size, tile_size, tile_size, fill=col)
                 d.append(r)
 

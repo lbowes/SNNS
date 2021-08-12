@@ -3,29 +3,29 @@
      width="200" height="200" viewBox="0 -200 200 200">
 <defs>
 </defs>
-<rect x="0.0" y="-40.0" width="40.0" height="40.0" fill="#597347FF" />
-<rect x="0.0" y="-80.0" width="40.0" height="40.0" fill="#260DE1FF" />
-<rect x="0.0" y="-120.0" width="40.0" height="40.0" fill="#006DCBFF" />
-<rect x="0.0" y="-160.0" width="40.0" height="40.0" fill="#85011AFF" />
-<rect x="0.0" y="-200.0" width="40.0" height="40.0" fill="#40A444FF" />
-<rect x="40.0" y="-40.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="40.0" y="-80.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="40.0" y="-120.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="40.0" y="-160.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="40.0" y="-200.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="80.0" y="-40.0" width="40.0" height="40.0" fill="#FBCD6CFF" />
-<rect x="80.0" y="-80.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="80.0" y="-120.0" width="40.0" height="40.0" fill="#64BD1EFF" />
-<rect x="80.0" y="-160.0" width="40.0" height="40.0" fill="#9C75B8FF" />
-<rect x="80.0" y="-200.0" width="40.0" height="40.0" fill="#8DF668FF" />
-<rect x="120.0" y="-40.0" width="40.0" height="40.0" fill="#13A02DFF" />
-<rect x="120.0" y="-80.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="120.0" y="-120.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="120.0" y="-160.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="120.0" y="-200.0" width="40.0" height="40.0" fill="#A5779FFF" />
-<rect x="160.0" y="-40.0" width="40.0" height="40.0" fill="#0EBDC2FF" />
-<rect x="160.0" y="-80.0" width="40.0" height="40.0" fill="#00000000" />
-<rect x="160.0" y="-120.0" width="40.0" height="40.0" fill="#F85674FF" />
-<rect x="160.0" y="-160.0" width="40.0" height="40.0" fill="#69CA86FF" />
-<rect x="160.0" y="-200.0" width="40.0" height="40.0" fill="#BCD501FF" />
+<rect x="0.0" y="-40.0" width="40.0" height="40.0" fill="#ff0000ff" />
+<rect x="0.0" y="-80.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="0.0" y="-120.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="0.0" y="-160.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="0.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="40.0" y="-40.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="40.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="40.0" y="-120.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="40.0" y="-160.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="40.0" y="-200.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="80.0" y="-40.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="80.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="80.0" y="-120.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="80.0" y="-160.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="80.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="120.0" y="-40.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="120.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="120.0" y="-120.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="120.0" y="-160.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="120.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="160.0" y="-40.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="160.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" />
+<rect x="160.0" y="-120.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="160.0" y="-160.0" width="40.0" height="40.0" fill="#333333ff" />
+<rect x="160.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" />
 </svg>
