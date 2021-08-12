@@ -6,7 +6,11 @@ def main() -> None:
     env = Environment()
     agent = Agent()
 
+    # temp
+    agent.draw()
+
     obs = env.reset()
+    # temp
     env.draw()
 
     for step in range(0, 1):

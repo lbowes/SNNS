@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="200" height="200" viewBox="0 -200 200 200">
+<defs>
+</defs>
+<rect x="0.0" y="-40.0" width="40.0" height="40.0" fill="#ff0000ff" stroke-width="0" stroke="black" />
+<rect x="0.0" y="-80.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="0.0" y="-120.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="0.0" y="-160.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="0.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="40.0" y="-40.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="40.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="40.0" y="-120.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="40.0" y="-160.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="40.0" y="-200.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="80.0" y="-40.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="80.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="80.0" y="-120.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="80.0" y="-160.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="80.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="120.0" y="-40.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="120.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="120.0" y="-120.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="120.0" y="-160.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="120.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="160.0" y="-40.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="160.0" y="-80.0" width="40.0" height="40.0" fill="#ffffffff" stroke-width="0" stroke="black" />
+<rect x="160.0" y="-120.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="160.0" y="-160.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+<rect x="160.0" y="-200.0" width="40.0" height="40.0" fill="#333333ff" stroke-width="1" stroke="black" />
+</svg>

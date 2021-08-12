@@ -44,17 +44,17 @@ class Environment:
                 idx = (self._board_size - y - 1) * self._board_size + x
                 tile = self._board[idx]
                 
+                stroke_width = 0
+
                 if (x, y) == self._agent_pos:
                     col = self._colours["agent"]
                 elif tile == '#':
                     col = self._colours["wall"]
+                    stroke_width = 1
                 else:
                     col = self._colours["air"]
                 
-                r = draw.Rectangle(x * tile_size, y * tile_size, tile_size, tile_size, fill=col)
+                r = draw.Rectangle(x * tile_size, y * tile_size, tile_size, tile_size, fill=col, stroke_width=stroke_width, stroke='black')
                 d.append(r)
 
-        d.saveSvg('example.svg')
-
-        # todo
-        return Observation([0.0])
+        d.saveSvg('environment.svg')
