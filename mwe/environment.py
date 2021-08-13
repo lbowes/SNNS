@@ -45,15 +45,22 @@ class Environment:
                 
                 stroke_width = 0
 
-                if (x, y) == self._agent_pos:
-                    col = self._colours["agent"]
-                elif tile == '#':
+                if tile == '#':
                     col = self._colours["wall"]
                     stroke_width = 1
                 else:
                     col = self._colours["air"]
                 
-                r = draw.Rectangle(x * tile_size, y * tile_size, tile_size, tile_size, fill=col, stroke_width=stroke_width, stroke='black')
-                d.append(r)
+                tile = draw.Rectangle(x * tile_size, y * tile_size, tile_size, tile_size, fill=col, stroke_width=stroke_width, stroke='black')
+                d.append(tile)
+
+                if (x, y) == self._agent_pos:
+                    col = self._colours["agent"]
+                    agent = draw.Circle(x * tile_size + tile_size * 0.5, y * tile_size + tile_size * 0.5, tile_size * 0.5, fill=col, stroke_width=1, stroke='black')
+
+                    d.append(agent)
 
         d.saveSvg('environment.svg')
+
+
+    def _draw_agent(self, pos)
